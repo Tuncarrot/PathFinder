@@ -29,7 +29,9 @@ namespace Hourglass
             if (dayOfWeek == DayOfWeek.Monday || dayOfWeek == DayOfWeek.Tuesday || dayOfWeek == DayOfWeek.Thursday || dayOfWeek == DayOfWeek.Friday)
             {
 
-                Console.WriteLine("---------------- GYM PLANNER ----------------");
+                Console.WriteLine("---------------- PathFinder ----------------");
+                Art.printPathFinder();
+
 
                 try
                 {
